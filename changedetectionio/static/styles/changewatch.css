@@ -1,0 +1,38 @@
+/* CHANGEWATCH - Visual Identity */
+
+:root {
+  --cw-primary: #3978f6;
+  --cw-primary-hover: #2563eb;
+  --cw-background: #0b1120;
+  --cw-surface: #151e30;
+  --cw-border: #26344a;
+  --cw-text: #f1f5f9;
+  --cw-muted: #94a3b8;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--cw-primary);
+}
+
+button,
+input[type="submit"] {
+  transition: background 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  filter: brightness(1.1);
+}
+
+:focus-visible {
+  outline: 2px solid var(--cw-primary);
+  outline-offset: 3px;
+}
