@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{url_for('static_content', group='styles', filename='flag-icons.min.css')}}"  >
     {# ?v= is appended automatically for static_content (see _fingerprint_static_urls) #}
     <link rel="stylesheet" href="{{url_for('static_content', group='styles', filename='styles.css')}}" >
+    <link rel="stylesheet" href="{{url_for('static_content', group='styles', filename='changewatch.css')}}" />
     {% if extra_stylesheets %}
       {% for m in extra_stylesheets %}
         <link rel="stylesheet" href="{{ m }}?ver={{ get_css_version() }}" >
