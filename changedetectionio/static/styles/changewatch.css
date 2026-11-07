@@ -66,3 +66,54 @@ input[type="submit"]:hover {
 .login-form .inner {
   border-radius: 16px;
 }
+/* CHANGEWATCH - Dashboard improvements */
+
+#add-watch-ui {
+  border: 1px solid var(--cw-border);
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 24px;
+}
+
+#add-watch-url-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+#add-watch-url-row input {
+  border-radius: 10px;
+  min-height: 44px;
+}
+
+#add-watch-go {
+  background: var(--cw-primary);
+  border-radius: 10px;
+  font-weight: 700;
+  min-height: 44px;
+}
+
+#watch-table-wrapper {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+#tag-lister {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+#tag-lister .button-tag {
+  border-radius: 20px;
+}
+
+#stats_row {
+  padding: 12px 0;
+}
+
+:focus-visible {
+  outline-color: var(--cw-primary);
+}
