@@ -36,3 +36,33 @@ input[type="submit"]:hover {
   outline: 2px solid var(--cw-primary);
   outline-offset: 3px;
 }
+/* ChangeWatch login branding */
+
+.cw-login-brand {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.cw-login-brand h1 {
+  color: var(--cw-primary);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.cw-login-brand p {
+  color: var(--cw-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.login-form {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 24px;
+}
+
+.login-form .inner {
+  border-radius: 16px;
+}
